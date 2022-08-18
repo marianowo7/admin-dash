@@ -1,0 +1,262 @@
+body {
+ margin: 0;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
+    gap: 5px;
+    background-color: #e2e8f0
+}
+
+/* Header */
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+    margin-left: -5px;
+    box-shadow: 1px 3px #ccd1d8;
+}
+
+.h-p {
+    display: grid;
+    grid-template-columns: 1fr 15fr 1fr 1fr 1fr 7fr;
+    align-items: center;
+}
+
+.svgh1 {
+    grid-column: 4/5;
+}
+
+input {
+    grid-column: 2/3;
+    margin-top: 15px;
+    height: 35px;
+    background-color: #e2e8f0 ;
+    border: 0px solid white;
+    border-radius: 15px;
+}
+
+#user {
+    grid-column: 6/7;
+    grid-row: 1/2;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+
+.h-d {
+    display: grid;
+    grid-template-columns: 1fr 3fr 4fr;
+}
+
+.btn {
+    display: grid;
+    grid-column: 3/4;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 65px;
+    align-self: center;
+    border: none;
+}
+
+button {
+    background-color: #1992d4;
+    border-color: #1992d4;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border-radius: 35px;
+    width: 110px;
+    border: none;    
+}
+
+#user2 {
+    display: grid;
+    grid-column: 2/3;
+    padding-left: 35px;
+    font-weight: bold;
+    font-size: 25px;
+    align-items: center;
+}
+
+.btn {
+    height: 45px;
+    width: 55px;
+}
+
+/* Sidebar */
+
+.sidebar {
+    background-color: #1992d4;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    color: white;
+    font-weight: bold;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 1fr 5fr;
+    justify-content: center;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#mtitle {
+    padding-top: 15px;
+}
+
+.Profile {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.psvg, .Profile {
+    vertical-align: middle;
+    
+}
+
+
+
+.settings {
+    display: grid;
+    grid-row: 4/5;
+} 
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Article */
+
+.article {
+    background-color: #e2e8f0;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 5fr 2fr;
+    overflow: scroll;
+    grid-template-rows: 1fr 9fr;
+}
+
+.main {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(350px, 1fr));
+    gap: 15px   ;
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+
+
+.card {
+    background-color: white;
+    border-left: 8px solid #f0b429;
+    height: 200px;
+    font-size: 13px;
+    padding: 10px;
+    box-shadow: 10px 10px #ccd1d8;
+    border-radius: 6px;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-columns: 6fr 1fr 1fr 1fr;    
+}
+
+.txt {
+    grid-column: 1/5;
+}
+
+.csvg {
+    width: 35px;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    display: grid;
+    grid-auto-flow: column;
+}
+.csvg1 {
+    width: 35px;
+    grid-row: 3/4;
+    grid-column: 3/4;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.csvg2 {
+    width: 35px;
+    grid-row: 3/4;
+    grid-column: 4/5;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.title {
+    font-weight: bold;
+    color: black;
+}
+
+.right-card {
+    background-color: white;
+    display: grid;
+    border-radius: 6px;
+    width: 80%;
+    box-shadow: 10px 10px #ccd1d8;
+
+}
+
+.side {
+    padding: 10px;
+}
+
+#ano {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+p {
+    color: #868686;
+}
+
+#space {
+    background-color: #e2e8f0 ;
+    color: #e2e8f0;
+}
+
+#trending {
+    color: black;
+}
+
+#tre {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    align-items: center;
+}
+
+.ssvg {
+    padding-left: 15px;
+}
+
+.ppl {
+    padding: 10px;
+    margin-bottom: -15px;
+}
+
+.svgh, .svgh1, .svgh2 {
+    width: 35px;
+    height:35px;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+
+#svgd {
+    width: 70px;
+    height:70px;
+    padding-left: 145px;
+}
+
+
